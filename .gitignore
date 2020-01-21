@@ -1,0 +1,7 @@
+/.idea/
+/source/
+/vendor/
+/_data.php
+/_sql.php
+/composer.lock
+/composer.json

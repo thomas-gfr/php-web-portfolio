@@ -1,0 +1,305 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: #1e1d1d;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+/* ---------------- Header ---------------- */
+
+header > a {
+    display: block;
+    height: 135px;
+    margin: 50px auto;
+    width: 502px;
+}
+
+/* ---------------- Hero ---------------- */
+
+#hero {
+    background-image: url("hero.png");
+    background-position: center center;
+    margin-bottom: 50px;
+}
+
+#hero h1 {
+    color: white;
+    text-align: center;
+}
+
+/* ---------------- Main ---------------- */
+
+.container {
+    margin: 0 auto;
+    width: 990px;
+}
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.column {
+    float: left;
+    margin-left: 30px;
+    width: 480px;
+}
+
+.column:first-child {
+    margin-left: 0;
+}
+
+#content p {
+    line-height: 22px;
+    text-align: justify;
+}
+
+#pictures:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#pictures {
+    margin-right: -30px;
+}
+
+#pictures > a {
+    color: #1e1d1d;
+    display: block;
+    float: left;
+    margin: 0 30px 30px 0;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#pictures > a:hover {
+    text-decoration: underline;
+}
+
+#pager {
+    overflow: hidden;
+}
+
+#pager > a {
+    display: inline-block;
+}
+
+#pager > a:last-child {
+    float: right;
+}
+
+.btn {
+    color: #1e1d1d;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 18px;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.btn.disabled {
+    color: #a6a6a6;
+    cursor: not-allowed;
+}
+
+.button {
+    background-color: #1e1d1d;
+    border: none;
+    box-sizing: content-box;
+    color: #ccc;
+    display: inline-block;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 24px;
+    height: 20px;
+    line-height: 20px;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* ---------------- Footer ---------------- */
+
+footer {
+    margin-top: 80px;
+    background-color: #1e1d1d;
+}
+
+footer .container {
+    background-image: url("logotype.png");
+    background-position: right 47px;
+    background-repeat: no-repeat;
+}
+
+footer ul {
+    margin: 0;
+    padding: 70px 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+footer ul li:first-child {
+    margin-left: 0;
+}
+
+footer ul li a {
+    color: #ccc;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: white;
+}
+
+/* ---------------- Home page styles ---------------- */
+
+#home #hero {
+    height: 400px;
+}
+
+#home #hero h1 {
+    line-height: 386px;
+}
+
+#home #pictures > a {
+    height: 149px;
+    width: 225px;
+}
+
+.content-head {
+    margin: 0 0 30px 0;
+    line-height: 30px;
+}
+
+.content-head.pictures {
+    text-align: right;
+}
+
+#home-contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#home-contact a {
+    background-color: #1e1d1d;
+    color: #ccc;
+    display: inline-block;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 24px;
+    height: 20px;
+    line-height: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#home-contact a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ---------------- Gallery styles ---------------- */
+
+h1 {
+    font-size: 32px;
+    line-height: 70px;
+}
+
+#gallery #pictures {
+    margin-bottom: 50px;
+}
+
+
+/* ---------------- Detail styles ---------------- */
+
+#detail figure {
+    margin: 0;
+    padding: 0;
+}
+
+#detail figure > img {
+    width: 100%;
+    height: auto;
+}
+
+#detail figure > figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+/* ---------------- Contact styles ---------------- */
+
+form > p:first-child {
+    margin-top: 0;
+}
+
+form > p:last-child {
+    margin-bottom: 0;
+}
+
+label {
+    display: block;
+    line-height:24px;
+}
+
+input, textarea {
+    border: 1px solid #999494;
+    box-sizing: border-box;
+    display: block;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 12px;
+    width: 100%;
+}
+
+form > p > span {
+    display: none;
+}
+
+form > p.error {
+    color: #b3121d;
+}
+
+form > p.error > input,
+form > p.error > textarea {
+    border-color: #b3121d;
+}
+
+form > p.error > span {
+    display: inline;
+}
+
+form > p.error {
+
+}
