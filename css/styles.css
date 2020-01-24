@@ -92,6 +92,7 @@ header > a {
     line-height: 30px;
     text-align: center;
     text-decoration: none;
+    width: 310px;
 }
 
 #pictures > a:hover {

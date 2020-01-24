@@ -1,17 +1,12 @@
+<?php
+require 'includes/fonctions.php'
+?>
+
 <!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="utf8">
-    <title>Morgan Dawkins - Freelance Photograph - Contact</title>
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap" rel="stylesheet">
-</head>
+<?php require 'includes/head.php' ?>
 <body id="contact">
-    <header>
-        <a href="index.html">
-            <img src="css/logo.png" alt="Morgan Dawkins - Freelance Photograph">
-        </a>
-    </header>
+    <?php require 'includes/header.php' ?>
     <main>
         <div id="hero">
             <h1>Contact me</h1>
@@ -62,20 +57,6 @@
             </div><!-- end row -->
         </div>
     </main>
-    <footer>
-        <div class="container">
-            <ul>
-                <li>
-                    <a href="index.html" title="Photograph">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html" title="My shots">Gallery</a>
-                </li>
-                <li>
-                    <a href="contact.html" title="Contact form">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+    <?php require 'includes/footer.php' ?>
 </body>
 </html>
